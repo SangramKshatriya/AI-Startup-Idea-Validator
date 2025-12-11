@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://validator-backend-opon.onrender.com/';
 
 function App() {
   const [view, setView] = useState('dashboard'); // 'dashboard', 'submit', 'detail'
